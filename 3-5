@@ -1,0 +1,19 @@
+a=int(input('자연수의 갯수'))
+b=int(input('자연수들의 합'))
+c=b//a
+d=b%a
+e=0
+h=0
+j=0
+f=[]
+while e<a-d:
+    f.append(c)
+    e+=1
+for g in f:
+    g=g+h
+    h=g
+g=(b-g)//d
+while j<d:
+    f.append(g)
+    j+=1
+print(f)
